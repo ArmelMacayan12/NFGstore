@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Dropshipping Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>MyStore</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Trending Products Delivered to You</h2>
+    <p>Fast shipping. Affordable prices.</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>Wireless Earbuds</h3>
+      <p>$19.99</p>
+      <button onclick="buyNow('Wireless Earbuds')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Smart Watch</h3>
+      <p>$29.99</p>
+      <button onclick="buyNow('Smart Watch')">Buy Now</button>
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We bring you the best trending products from around the world.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: support@mystore.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 MyStore. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
