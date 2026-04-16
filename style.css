@@ -28,8 +28,15 @@ nav a {
 .hero button {
   padding: 10px 20px;
   background: white;
+  color: black;
   border: none;
+  border-radius: 20px;
   cursor: pointer;
+}
+
+.hero button:hover {
+  background: #28a745;
+  color: white;
 }
 
 .products {
